@@ -141,14 +141,18 @@ export function HeroSection() {
             </motion.h2>
             
             <motion.p
-              custom={2}
-              initial="hidden"
-              animate="visible"
-              variants={textVariants}
-              className="text-lg text-muted-foreground mb-8 max-w-2xl"
-            >
-              I transform ideas into extraordinary digital experiences, combining artistic vision with technical expertise. Specializing in bespoke web solutions, intuitive UI/UX design, and strategic branding, I collaborate closely with clients to craft meaningful digital narratives that resonate with their audience.
-            </motion.p>
+  custom={2}
+  initial="hidden"
+  animate="visible"
+  variants={textVariants}
+  className="text-lg text-muted-foreground mb-8 max-w-2xl"
+>
+  I bring ideas to life through custom <motion.span animate={{
+      color: ["#7c3aed", "#3b82f6", "#ec4899", "#7c3aed"],
+      transition: { duration: 8, repeat: Infinity }
+    }}> web development </motion.span>—blending creativity and technical skills. I create tailored websites, seamless user experiences, and branding that helps you connect with your audience.
+</motion.p>
+
             
             <motion.div
               custom={3}
@@ -193,7 +197,7 @@ export function HeroSection() {
               className="flex gap-6"
             >
               <motion.div variants={iconVariants} whileHover={{ scale: 1.2, rotate: 5, y: -5 }} whileTap={{ scale: 0.9 }}>
-                <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <Link href="https://github.com/manoj169m" target="_blank" rel="noopener noreferrer">
                   <Button variant="ghost" size="icon" className="rounded-full">
                     <Github className="h-5 w-5" />
                     <span className="sr-only">GitHub</span>

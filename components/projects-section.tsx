@@ -17,7 +17,6 @@ const projects = [
     image: "/millet.jpg",
     tags: ["Next.js", "Clerck", "Supabase" ,"Tailwand CSS"],
     liveUrl: "https://millet-space.vercel.app/",
-    githubUrl: "https://github.com",
   },
   {
     id: 2,
@@ -26,18 +25,16 @@ const projects = [
       "A modern portfolio website showcasing creative work and projects with a clean, minimalist design.",
     image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80",
     tags: ["Next.js", "Tailwind CSS", "Framer Motion"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com",
+    liveUrl: "https://freelance-portfolio-lime.vercel.app/",
   },
   {
     id: 3,
     title: "Memory Cards Game",
     description:
-      "A productivity application for managing tasks, projects, and deadlines with team collaboration features.",
+      "Developed an interactive memory card game using React.js with engaging gameplay mechanics.",
     image: "/card.jpg",
     tags: ["React"],
     liveUrl: "https://66a0fa2d1f4d2823f56959aa--melodious-bienenstitch-50ec9e.netlify.app/",
-    githubUrl: "https://github.com",
   },
 ];
 
@@ -97,12 +94,7 @@ export function ProjectsSection() {
                         Live Demo
                       </Link>
                     </Button>
-                    <Button asChild size="sm" variant="outline">
-                      <Link href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                        <Github className="h-4 w-4 mr-2" />
-                        Code
-                      </Link>
-                    </Button>
+                  
                   </div>
                 </CardContent>
               </Card>

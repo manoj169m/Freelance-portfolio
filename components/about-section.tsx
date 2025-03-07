@@ -51,17 +51,32 @@ export function AboutSection() {
             transition={{ duration: 0.5, delay: 0.4 }}
           >
             <h3 className="text-2xl font-bold mb-4">Freelance Web Developer</h3>
-            <p className="text-muted-foreground mb-6">
-  I&#39;m a results-driven freelance web developer specializing in crafting high-performance websites and
-  applications. With a keen eye for design and a passion for clean code, I help businesses and startups
-  establish a strong online presence.
+            <p className="text-muted-foreground mb-6 text-lg ">
+  I'm a results-driven freelance <motion.span animate={{
+      color: ["#7c3aed", "#3b82f6", "#ec4899", "#7c3aed"],
+      transition: { duration: 8, repeat: Infinity }
+    }}> web developer </motion.span> specializing in crafting <motion.span animate={{
+      color: ["#7c3aed", "#3b82f6", "#ec4899", "#7c3aed"],
+      transition: { duration: 8, repeat: Infinity }
+    }}> high-performance websites </motion.span> and applications. With a keen eye for design and a passion for clean code, I help businesses and startups establish a strong online presence.
+</p>
+<p className="text-muted-foreground mb-8 text-lg">
+  I help you grow your <motion.span animate={{
+      color: ["#7c3aed", "#3b82f6", "#ec4899", "#7c3aed"],
+      transition: { duration: 8, repeat: Infinity }
+    }}> business </motion.span> with a powerful online presence. Whether it’s a <motion.span animate={{
+      color: ["#7c3aed", "#3b82f6", "#ec4899", "#7c3aed"],
+      transition: { duration: 8, repeat: Infinity }
+    }}> landing page </motion.span>, dynamic <motion.span animate={{
+      color: ["#7c3aed", "#3b82f6", "#ec4899", "#7c3aed"],
+      transition: { duration: 8, repeat: Infinity }
+    }}> web app </motion.span>, or a <motion.span animate={{
+      color: ["#7c3aed", "#3b82f6", "#ec4899", "#7c3aed"],
+      transition: { duration: 8, repeat: Infinity }
+    }}> website revamp </motion.span>, I create custom solutions that drive growth and attract customers.
 </p>
 
-            <p className="text-muted-foreground mb-8">
-              Whether you need a stunning landing page, a dynamic web application, or a complete website revamp, I
-              provide tailored solutions to meet your needs. My expertise spans modern front-end frameworks, intuitive
-              UI/UX design, and scalable backend architectures.
-            </p>
+
 
             <Card className="p-6">
               <Tabs defaultValue="design">
