@@ -17,7 +17,7 @@ export default function Contacts() {
           href="mailto:manoj16935@gmail.com"
           className="text-white hover:text-indigo-400 transition duration-300"
         >
-         E-mail
+         mail
         </a>
       </div>
 
