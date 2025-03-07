@@ -30,7 +30,7 @@ export function ContactSection() {
             }}><a href="tel:+919080536574">call</a></motion.span>—let's get started! You can also find me on <motion.span animate={{
               color: ["#7c3aed", "#3b82f6", "#ec4899", "#7c3aed"],
               transition: { duration: 8, repeat: Infinity }
-            }}><a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></motion.span>!
+            }}><a href="https://www.linkedin.com/in/mano-bharathi-b-157982223/" target="_blank">LinkedIn</a></motion.span>!
           </p>
         </motion.div>
       </div>
