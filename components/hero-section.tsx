@@ -147,11 +147,22 @@ export function HeroSection() {
   variants={textVariants}
   className="text-lg text-muted-foreground mb-8 max-w-2xl"
 >
-  I bring ideas to life through custom <motion.span animate={{
+  I help turn your ideas into reality with  <motion.span animate={{
       color: ["#7c3aed", "#3b82f6", "#ec4899", "#7c3aed"],
       transition: { duration: 8, repeat: Infinity }
-    }}> web development </motion.span>—blending creativity and technical skills. I create tailored websites, seamless user experiences, and branding that helps you connect with your audience.
+    }}> custom websites</motion.span> that look great and work smoothly. I focus on creating websites that are<motion.span animate={{
+      color: ["#7c3aed", "#3b82f6", "#ec4899", "#7c3aed"],
+      transition: { duration: 8, repeat: Infinity }
+    }}> easy to use,</motion.span>  reflect your  <motion.span animate={{
+      color: ["#7c3aed", "#3b82f6", "#ec4899", "#7c3aed"],
+      transition: { duration: 8, repeat: Infinity }
+    }}>unique brand</motion.span>, and help you connect with the people who matter most to  <motion.span animate={{
+      color: ["#7c3aed", "#3b82f6", "#ec4899", "#7c3aed"],
+      transition: { duration: 8, repeat: Infinity }
+    }}>your business.</motion.span>
 </motion.p>
+
+
 
             
             <motion.div
@@ -302,7 +313,9 @@ export function HeroSection() {
                           transition: { duration: 8, repeat: Infinity }
                         }}
                       >
-                        Portfolio
+                        Freelance <br>
+                        </br>
+                        Web developer
                       </motion.span>
                     </motion.div>
                   </div>

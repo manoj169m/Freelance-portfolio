@@ -29,13 +29,13 @@ const projects = [
   },
   {
     id: 3,
-    title: "Memory Cards Game",
-    description:
-      "Developed an interactive memory card game using React.js with engaging gameplay mechanics.",
-    image: "/card.jpg",
+    title: "Gym Portfolio Website", 
+    description: "Created a front-end gym portfolio site focused on business development, featuring services, testimonials, and easy navigation, built with React.",
+    image: "/gym.png",
     tags: ["React"],
-    liveUrl: "https://66a0fa2d1f4d2823f56959aa--melodious-bienenstitch-50ec9e.netlify.app/",
-  },
+    liveUrl: "https://gym-sitereact.netlify.app/",
+  }
+  
 ];
 
 export function ProjectsSection() {
