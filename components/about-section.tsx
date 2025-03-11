@@ -35,12 +35,17 @@ export function AboutSection() {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <div className="relative h-[400px] w-full rounded-lg overflow-hidden">
-              <Image
-                src="/mano.jpg" // Corrected image path
-                alt="Profile"
-                layout="fill" // Use layout="fill" for responsive images
-                objectFit="cover" // Ensures the image covers the entire container
-              />
+     
+
+<Image
+  src="/mano.jpg"
+  alt="Profile"
+  width={500}  // Define a width for the image
+  height={300} // Define a height for the image
+  style={{ objectFit: 'cover' }} // Apply objectFit using the style prop
+  priority  // Optional: Preload the image for better performance
+/>
+
             </div>
           </motion.div>
 
