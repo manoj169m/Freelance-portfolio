@@ -5,9 +5,9 @@ import { ThemeProvider } from '@/components/theme-provider';
 import { Toaster } from '@/components/ui/toaster';
 
 const inter = Inter({ subsets: ['latin'] });
-
+  
 export const metadata: Metadata = {
-  title: 'Portfolio | Creative Designer & Developer',
+  title: 'Portfolio | Freelance Web developer',
   description: 'Personal portfolio showcasing creative work and projects',
   icons: {
     icon: '/favicon.ico', // Link to favicon in the public folder
