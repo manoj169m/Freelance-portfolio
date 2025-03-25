@@ -9,7 +9,7 @@ import { ContactSection } from "@/components/contact-section";
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <Header />
+
       <HeroSection />
       <AboutSection />
       <ProjectsSection />

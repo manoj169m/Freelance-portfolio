@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { Poppins } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
 import { Toaster } from '@/components/ui/toaster';
+import { Header } from '@/components/header';
 
 // Corrected Poppins font import with weight
 const poppins = Poppins({
@@ -34,6 +35,7 @@ export default function RootLayout({
       </head>
       <body className={poppins.className}>
         <ThemeProvider attribute="class" defaultTheme="dark">
+          <Header/>
           {children}
           <Toaster />
         </ThemeProvider>
