@@ -1,11 +1,15 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Poppins } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
 import { Toaster } from '@/components/ui/toaster';
 
-const inter = Inter({ subsets: ['latin'] });
-  
+// Corrected Poppins font import with weight
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['400', '700'], // You can add more weights if needed
+});
+
 export const metadata: Metadata = {
   title: 'Portfolio | Freelance Web developer',
   description: 'Personal portfolio showcasing creative work and projects',
@@ -28,7 +32,7 @@ export default function RootLayout({
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
       </head>
-      <body className={inter.className}>
+      <body className={poppins.className}>
         <ThemeProvider attribute="class" defaultTheme="dark">
           {children}
           <Toaster />
